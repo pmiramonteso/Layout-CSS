@@ -33,6 +33,33 @@ body {
     box-sizing: border-box;
   }
 
+@keyframes bigger {
+    0% {
+      width: 100%;
+      background-color: rgb(247, 194, 228);
+    }
+  
+    50% {
+      background-color: rgb(79, 31, 76);
+      color: white;
+      transform: scale(1.08);
+    }
+    75% {
+      background-color: rgb(79, 31, 76);
+      color: white;
+      transform: scale(1);
+    }
+    100% {
+      width: 100%;
+      background-color: rgb(247, 194, 228);
+    }
+  }
+  
+  .logo:hover {
+    animation-name: bigger;
+    animation-duration: 2s;
+  }
+
   .nav a{
     text-decoration: none;
     color: inherit;
@@ -189,7 +216,7 @@ body {
     .articles {
       width: 100%;
     }
-    
+
     .publicidad {
       width: 100%;
     }
