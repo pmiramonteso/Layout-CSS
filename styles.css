@@ -1,0 +1,110 @@
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: rgb(255, 249, 241);
+    margin: 10px;
+  }
+  
+  .seccion1,
+  .seccion2,
+  .seccion3 {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    align-items: stretch;
+    background-color: #ed2ef4;
+    color: rgba(0, 0, 0, 0.9);
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .logo,
+  .nav,
+  .social {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(247, 194, 228);
+    box-sizing: border-box;
+  }
+
+  .nav a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .nav ul {
+    list-style-type: none;
+    padding: 0px;
+  }
+  
+  .social a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .banner {
+    background-color: rgb(247, 206, 162);
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.9);
+    border: 20px solid rgb(246, 97, 42);
+    margin-top: 20px;
+    box-sizing: border-box;
+  }
+  
+  main {
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+  }
+  
+  .articles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(7, 150, 245);
+    box-sizing: border-box;
+  }
+  
+  .article {
+    background-color: rgb(13, 227, 166);
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+  }
+  
+  .navegacion {
+    background-color: #dff745;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .publicidad {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 20px;
+    gap: 20px;
+    background-color: rgb(126, 14, 143);
+    box-sizing: border-box;
+  }
+  
+  .ad {
+    background-color: yellow;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .pie {
+    background-color: rgb(94, 248, 94);
+    padding: 1px;
+    box-sizing: border-box;
+  }
