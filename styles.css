@@ -11,10 +11,12 @@ body {
     padding: 20px;
     margin: 15px 0;
     box-sizing: border-box;
+    overflow: hidden;
   }
   
   header {
     display: flex;
+    flex-wrap: wrap;
     align-items: stretch;
     background-color: #ed2ef4;
     color: rgba(0, 0, 0, 0.9);
@@ -28,6 +30,7 @@ body {
   .social {
     display: flex;
     align-items: center;
+    flex: 1;
     width: 100%;
     background-color: rgb(247, 194, 228);
     box-sizing: border-box;
@@ -68,6 +71,7 @@ body {
   .nav ul {
     list-style-type: none;
     padding: 0px;
+    flex-wrap: wrap;
   }
   
   .social a {
@@ -89,6 +93,7 @@ body {
     display: flex;
     gap: 20px;
     box-sizing: border-box;
+    
   }
   
   .articles {
