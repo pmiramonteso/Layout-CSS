@@ -1,4 +1,4 @@
-Sprint 1.1 (Curso Angular)
+Sprint 1.1
 
 📄 Descripción
 Este repositorio incluye los recursos del frontend desarrollados para este proyecto que es diseñado con la intención de demostrar la estructura básica y el estilo de una página web. La he construido utilizando HTML y CSS, con un enfoque en la creación de una interfaz responsiva que se adapta a diferentes tamaños de pantalla.
